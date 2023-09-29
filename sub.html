@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev - TrailblazeRJ</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/resp.css" />
+    <link rel="stylesheet" href="css/sub.css" />
+</head>
+
+<body>
+    <header class="navigation">
+        <!-- have to work here -->
+        <div class="logoD">
+            <div class="logo">
+                <img src="resouces/Level.png" alt="Logo" class="l-img">
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <nav class="navBar">
+            <ul class="navList navListOpen">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="misson.html">Mission</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="opt.html">Opportunities</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="btn">Log in/Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Submit Your Idea</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="mail" required>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="student">Student</option>
+                <option value="former_employee">Former Employee</option>
+                <option value="enthisiast">Enthusiast</option>
+                <option value="freelancer">Freelancer</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="idea">Idea:</label>
+            <input type="text" id="idea" name="idea" required>
+
+            <label for="ideadesc">Give Description of your Idea:</label>
+            <textarea name="ideadesc" class="inp" id="ideadesc" cols="30" rows="5"
+            placeholder="Give Description of your Idea."></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+    <footer>
+        <div>
+            <ul class="navList">
+                <li class="f-li"><a href="#">Contact Us</a></li>
+                <li class="f-li"><a href="#">About</a></li>
+            </ul>
+        </div>
+        <p class="f-text">Copyright &copy; to TrailblazeRJ Ltd. all rights reserved. Vector Credits:Vecteezy</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
