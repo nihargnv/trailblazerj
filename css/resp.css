@@ -79,14 +79,14 @@
   .head {
     font: 14px;
     color: #000000;
-    text-shadow: 4px 4px #ffffff;
+    text-shadow: 2px 2px #ffffff;
     text-align: center;
   }
 
   .body {
     font: 9px;
     color: #000000;
-    text-shadow: 2px 2px #432424;
+    text-shadow: 1px 1px #432424;
     text-align: center;
   }
 
