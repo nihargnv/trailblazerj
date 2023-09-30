@@ -33,6 +33,6 @@ let slideIndex = 0;
         // Auto-change slides every 2 seconds
         setInterval(() => {
             nextSlide();
-        }, 300770);
+        }, 3000);
 
         
