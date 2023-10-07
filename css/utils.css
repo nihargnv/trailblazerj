@@ -73,6 +73,10 @@ header {
     color: white;
 }
 
+.navList a: hover{
+    color: rgb(191, 210, 212);
+}
+
 .currentPage {
     border-bottom: 0.1em solid white;
 }
